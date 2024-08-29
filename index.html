@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio SrEnriqueX</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+
+    <link href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+
+
+    <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-lg navbar-dark shadow bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://github.com/SrEnriqueX" target="_blank">
+                    SrEnriqueX
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container px-3">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link  me-lg-3" href="#inicio">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  me-lg-3" href="#acercaDe">Acerca de</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#proyectos">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#contacto">Contacto</a>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <header class="bg-light py-5" id="inicio">
+            <div class="container px-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6 d-flex flex-column justify-content-center">
+                        <div class="my-5 text-center">
+                            <h2 class="fw-bold mb-2" id="typewriter"></h2>
+                            <h2 class="text-primary fw-bold mb-2">Desarrollador Frontend-Redes & Telecomunicaciones</h2>
+                            <p class="lead text-muted mb-4">
+                                Soy estudiante del octavo ciclo de Ingeniería de Sistemas Computacionales en la
+                                Universidad Privada del Norte.
+                            </p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                                <a class="btn btn-primary btn-lg text-uppercase" href="#frontend">Frontend
+                                    <span class="material-icons-outlined ms-2">visibility</span>
+                                </a>
+                                <a class="btn btn-outline-primary btn-lg text-uppercase" href="#Redes-TeleCom">Redes &
+                                    Telecom.
+                                    <span class="material-icons-outlined ms-2">settings</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-5 col-xxl-6 text-center d-flex justify-content-center">
+                        <img class="img-fluid rounded-3 my-5" src="/IMAGES/yo.jpg" alt="yo">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section id="acercaDe" class="text-center py-5">
+                <div class="container py-5">
+                    <div class="row justify-content-center">
+                        <h2 class="fw-bold">Acerca de mi</h2>
+                        <p class="lead text-muted mb-5">
+                            Mi interés principal radica en el desarrollo web, especialmente en la parte frontend. Aunque
+                            mi experiencia en frontend se basa principalmente en proyectos universitarios, he tenido la
+                            oportunidad de trabajar en el área de redes en sectores tanto privados como públicos, lo que
+                            me ha permitido adquirir un sólido conocimiento en esta rama.
+                        </p>
+                    </div>
+                </div>
+                <div class="container mb-5">
+                    <div class="row">
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="d-flex mb-5 about">
+                                <span class="material-icons-outlined m-auto text-primary">preview</span>
+                            </div>
+                            <h5>Diseño</h5>
+                            <p class="text-muted mb-0">
+                                Me esfuerzo por crear interfaces de usuario atractivas y funcionales, aplicando las
+                                mejores prácticas en diseño.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="d-flex mb-5 about">
+                                <span class="material-icons-outlined m-auto text-primary">code</span>
+                            </div>
+                            <h5>Desarrollo Web</h5>
+                            <p class="text-muted mb-0">
+                                Tengo experiencia en proyectos académicos de desarrollo frontend, aplicando HTML, CSS y
+                                JavaScript para crear aplicaciones web responsivas.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="d-flex mb-5 about">
+                                <span class="material-icons-outlined m-auto text-primary">engineering</span>
+                            </div>
+                            <h5>Redes y mantenimiento</h5>
+                            <p class="text-muted mb-0">
+                                Cuento con experiencia preprofesional en la configuración y mantenimiento de redes,
+                                habiendo trabajado en proyectos para empresas del sector privado y público.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="frontend" class="text-center py-5">
+                <div class="container py-5">
+                    <div class="row justify-content-center">
+                        <h2 class="fw-bold">Proyectos frontend</h2>
+                        <p class="lead text-muted mb-5">
+                            Algunos proyectos
+                        </p>
+                    </div>
+                </div>
+                <div class="container mb-5">
+                    <div class="row">
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="card h-100 shadow-lg border-0 bg-light">
+                                <img class="card-img-top" src="/IMAGES/IMG1.jpg" alt="Proyecto_IMG1">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title mb-3">Dashboard Ventas</h5>
+                                    <div class="mb-2">
+                                        <div class="badge bg-primary rounded-pill">C#</div>
+                                        <div class="badge bg-primary rounded-pill">Blazor</div>
+                                        <div class="badge bg-primary rounded-pill">JavaScript</div>
+                                        <div class="badge bg-primary rounded-pill">Bootstrap</div>
+                                    </div>
+                                    <p class="card-text">
+                                        Un dashboard de ventas de helados creada con chart.js y bootstrap
+                                    </p>
+                                </div>
+                                <!--<div class="card-footer bg-transparent mb-3">
+                                    <a class="btn btn-outline-primary btn-sm text-uppercase" href=""
+                                    target="_blank"
+                                    >
+                                    <span class="material-icons-outlined me-1">code</span>
+                                    Source CODE
+                                </div>-->
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="card h-100 shadow-lg border-0 bg-light">
+                                <img class="card-img-top" src="/IMAGES/IMG2.jpg" alt="Proyecto_IMG2">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title mb-3">Presupuesto</h5>
+                                    <div class="mb-2">
+                                        <div class="badge bg-primary rounded-pill">Html</div>
+                                        <div class="badge bg-primary rounded-pill">Css</div>
+                                        <div class="badge bg-primary rounded-pill">JavaScript</div>
+                                    </div>
+                                    <p class="card-text">
+                                        Gestiona el presupuesto personal mediante una interfaz simple construida con
+                                        HTML, CSS y JavaScript.
+                                    </p>
+                                </div>
+                                <!--<div class="card-footer bg-transparent mb-3">
+                                    <a class="btn btn-outline-primary btn-sm text-uppercase" href=""
+                                    target="_blank"
+                                    >
+                                    <span class="material-icons-outlined me-1">code</span>
+                                    Source CODE
+                                </div>-->
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="card h-100 shadow-lg border-0 bg-light">
+                                <img class="card-img-top" src="/IMAGES/IMG3.jpg" alt="Proyecto_IMG3">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title mb-3">Formulario de registro</h5>
+                                    <div class="mb-2">
+                                        <div class="badge bg-primary rounded-pill">Html</div>
+                                        <div class="badge bg-primary rounded-pill">Css</div>
+                                    </div>
+                                    <p class="card-text">
+                                        Es un formulario de registro en HTML y CSS que permite a los usuarios crear una
+                                        cuenta en una plataforma
+                                    </p>
+                                </div>
+                                <!--<div class="card-footer bg-transparent mb-3">
+                                    <a class="btn btn-outline-primary btn-sm text-uppercase" href=""
+                                    target="_blank"
+                                    >
+                                    <span class="material-icons-outlined me-1">code</span>
+                                    Source CODE
+                                </div>-->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr id="proyectos">
+            <section id="Redes-TeleCom" class="text-center py-5">
+                <div class="container py-5">
+                    <div class="row justify-content-center">
+                        <h2 class="fw-bold">Proyecto de Redes & Telecomunicaciones</h2>
+                        <p class="lead text-muted mb-5">
+                            Algunos proyectos
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-5 d-flex justify-content-center">
+                            <div class="card h-100 shadow-lg border-0 bg-light">
+                                <img class="card-img-top" src="/IMAGES/IMG4.jpg" alt="Proyecto_IMG4" style="max-height: 200px; object-fit: cover;">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title mb-3">Actualizacion de Firmware</h5>
+                                    <div class="mb-2">
+                                        <div class="badge bg-primary rounded-pill">Firmware Ubiquiti</div>
+                                    </div>
+                                    <p class="card-text">
+                                        Se realizó toda la reconfiguración de los equipos de radio enlace, además con la nueva actualización de firmware en sector publico.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 mb-5 d-flex justify-content-center">
+                            <div class="card h-100 shadow-lg border-0 bg-light">
+                                <img class="card-img-top" src="/IMAGES/IMG5.jpg" alt="Proyecto_IMG5" style="max-height: 200px; object-fit: cover;">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title mb-3">Direccionamiento de IP en Cámaras:</h5>
+                                    <div class="mb-2">
+                                        <div class="badge bg-primary rounded-pill">PC</div>
+                                    </div>
+                                    <p class="card-text">
+                                        Asignación de direcciones IP estáticas a cada cámara para asegurar su accesibilidad y evitar conflictos de IP en sector privado.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="contacto" class="text-center py-5 bg-white">
+                <div class="container py-5">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="fw-bold mb-4">Contacto</h2>
+                            <p class="lead text-muted mb-5">
+                                Contácteno a través de los siguientes medios.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="mb-5">
+                                <h6 class="text-uppercase text-primary mb-2">Correo Electrónico</h6>
+                                <p class="lead mb-0">jechuramirez1999@gmail.com</p>
+                            </div>
+                            <div class="mb-5">
+                                <h6 class="text-uppercase text-primary mb-2">Celular</h6>
+                                <p class="lead mb-0">943882579</p>
+                            </div>
+                            <div class="mb-5">
+                                <h6 class="text-uppercase text-primary mb-2">Lugar</h6>
+                                <p class="lead mb-0">Trujillo-Peru</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+<!--<footer class="text-center py-4">
+        <div class="container px-5 mb-2">
+
+        </div>
+    </footer>-->
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap" style="background-color: #0D6EFD;">
+        <p class="fs-5 px-3 pt-3 text-white"> Jesus Aponte Ramirez &copy; Todos Los Derechos Reservados 2024 </p>
+        <div id="iconos">
+            <a href="https://github.com/SrEnriqueX" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/jes%C3%BAs-aponte-ram%C3%ADrez-9b2409283/" target="_blank"><i class="bi bi-linkedin"></i></i></a>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="/JS/app.js"></script>
+</body>
+
+</html>
