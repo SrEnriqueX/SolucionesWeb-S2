@@ -21,12 +21,12 @@ body{
 }
 
 #iconos i {
-    color: white; /* Cambia el color de los íconos a blanco */
-    font-size: 24px; /* Ajusta el tamaño de los íconos si es necesario */
-    margin: 0 10px; /* Espacio entre los íconos */
-    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+    color: white; 
+    font-size: 24px; 
+    margin: 0 10px; 
+    transition: color 0.3s ease; 
 }
 
 #iconos a:hover i {
-    color: #ccc; /* Color de los íconos cuando el mouse está sobre ellos */
+    color: #ccc; 
 }
