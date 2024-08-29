@@ -20,8 +20,13 @@ body{
     height: 250px;
 }
 
-#iconos i{
-    font-size: 26px;
-    padding: 0 8px;
-    color: #f3f3f3;
+#iconos i {
+    color: white; /* Cambia el color de los íconos a blanco */
+    font-size: 24px; /* Ajusta el tamaño de los íconos si es necesario */
+    margin: 0 10px; /* Espacio entre los íconos */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+#iconos a:hover i {
+    color: #ccc; /* Color de los íconos cuando el mouse está sobre ellos */
 }
